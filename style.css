@@ -1,0 +1,134 @@
+.navbarLeft {
+    float: left;
+}
+
+.navbarRight {
+    float: right;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 16px 10px 0px 0px;
+        overflow: hidden;
+    }
+
+li a{
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding-left: 15px;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    outline: none;
+    vertical-align: middle;
+}
+
+li a:hover {
+    text-decoration: underline black;  
+}
+
+#signInBtn {    
+   line-height: 28px;
+   text-decoration: none;
+   color: #fff;
+   padding: 0px 12px;
+   border: 1px solid #4285f4;
+   background-color: #4285f4;
+   text-align: center;
+   font-weight: bold;
+}
+
+#googleAppsBtn {
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    background-image: url('//web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+    margin: 0px 15px;
+}
+
+
+#googleLogo {
+    padding-top: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#srch {
+    display: inline-flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+    background: none;
+    border: 1px solid rgb(150, 147, 147);
+    border-radius: 20px;
+    padding: 0;
+    line-height: 40px;
+}
+
+#searchbox {
+   background: none;
+   border: none;
+   height: 30px;
+   width: 450px;
+}
+
+
+#loop {
+    padding: 15px;
+    line-height: 25px;
+    width: 20px;
+    height: 20px
+}
+
+#mic {
+    background: url('http://web.archive.org/web/20191130234609im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') no-repeat;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+    background-position: center;
+    padding: 10px;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #f2f2f2;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color:rgb(83, 83, 83);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#footbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgb(83, 83, 83);
+    background-color: #f2f2f2;
+}
+
+.footermenu {
+   padding: 0px 15px 12px 0px;
+   color: rgb(83, 83, 83) !important;
+}
